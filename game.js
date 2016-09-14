@@ -22,8 +22,7 @@ function makeGreen (evt) {
 }
 
 function makeBlue (evt) {
-  evt.preventDefault();
-  evt.target.classList.toggle('green');
+  evt.target.classList.toggle('blue');
   updateCounts();
 }
 // CREATE FUNCTION hide HERE
